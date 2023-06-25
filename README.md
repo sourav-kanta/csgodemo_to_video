@@ -12,11 +12,9 @@
   7. Open Steam and add the following to CS GO Launch option : _-insecure -condebug +exec recording_
   8. Download awp_mirage map from Steam workshop (Check by manually opening CSGO and typing map awp_mirage in console)
   9. Copy the demo file you want to convert to video in the **demo folder** 
-  10. Open the recording.py file and update the following global variable as per your setup :
+  10. Open the recording.py file and update the following global variables as per your setup :
       _<br/>logFile = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\console.log"<br/>
       steamPath = "C:\\Program Files (x86)\\Steam\\"<br/>
-      vdmFile = "C:\\Users\\soura\\OneDrive\\Desktop\\scripts\\demo\\demo.vdm"<br/>
-      tickfile = "C:\\Users\\soura\\OneDrive\\Desktop\\scripts\\ticks.txt" <br/>
       playername = 'buddha#skinsmonkey'_
   12. cd to your code directory and now you can run the script as : _python recording.py_
 
