@@ -19,6 +19,7 @@
   12. cd to your code directory, keep obs open and now you can run the script as : _python recording.py_
 
 **Future Plans**
-  1. Add GUI with configuration options for global variables and create an executable
-  2. Upload these videos to Youtube
-  3. Create a webserver where these youtube videos can be shared for other people to review and give their feedback
+  1. Improve usability by automating these steps to run
+  2. Add GUI with configuration options for global variables and create an executable
+  3. Upload these videos to Youtube
+  4. Create a webserver where these youtube videos can be shared for other people to review and give their feedback
