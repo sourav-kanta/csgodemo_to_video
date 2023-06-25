@@ -16,7 +16,7 @@
       _<br/>logFile = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\console.log"<br/>
       steamPath = "C:\\Program Files (x86)\\Steam\\"<br/>
       playername = 'buddha#skinsmonkey'_
-  12. cd to your code directory and now you can run the script as : _python recording.py_
+  12. cd to your code directory, keep obs open and now you can run the script as : _python recording.py_
 
 **Future Plans**
   1. Add GUI with configuration options for global variables and create an executable
