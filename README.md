@@ -8,11 +8,12 @@
   3. Make sure to <b>Untick Enable Authentication</b>
   4. Keep CS open and alt tab to OBS. Create a new scene and add source as **Window Capture with window as the CS GO application**
   5. Open the recording.cfg file from the code folder and modify the 10th line (spec_player_by_name _buddha#skinsmonkey_) to change to your username
-  6. Next copy this file to C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg
-  7. Open Steam and add the following to CS GO Launch option : _-insecure -condebug +exec recording_
-  8. Download awp_mirage map from Steam workshop (Check by manually opening CSGO and typing map awp_mirage in console)
-  9. Copy the demo file you want to convert to video in the **demo folder** 
-  10. Open the recording.py file and update the following global variables as per your setup :
+  6. Update the demo file paths in recording.cfg according to your setup
+  7. Next copy this file to C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg
+  8. Open Steam and add the following to CS GO Launch option : _-insecure -condebug +exec recording_
+  9. Download awp_mirage map from Steam workshop (Check by manually opening CSGO and typing map awp_mirage in console)
+  10. Copy the demo file you want to convert to video in the **demo folder** and rename to demo.dem
+  11. Open the recording.py file and update the following global variables as per your setup :
       _<br/>logFile = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\console.log"<br/>
       steamPath = "C:\\Program Files (x86)\\Steam\\"<br/>
       playername = 'buddha#skinsmonkey'_
