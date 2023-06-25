@@ -1,0 +1,38 @@
+demoactions
+{
+	"1"
+	{
+		factory "SkipAhead"
+		name "Unnamed1"
+		starttick "0"
+		skiptotick"6956"
+	}
+	"2"
+	{
+		factory "PlayCommands"
+		name "Unnamed2"
+		starttick "6966"
+		commands"demo_pause"
+	}
+	"3"
+	{
+		factory "SkipAhead"
+		name "Unnamed3"
+		starttick "21331"
+		skiptotick"21779"
+	}
+	"4"
+	{
+		factory "SkipAhead"
+		name "Unnamed4"
+		starttick "39643"
+		skiptotick"42193"
+	}
+	"5"
+	{
+		factory "SkipAhead"
+		name "Unnamed5"
+		starttick "59849"
+		skiptotick"60301"
+	}
+}

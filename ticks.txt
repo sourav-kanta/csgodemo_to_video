@@ -1,0 +1,188 @@
+Tick: 790 : buddha killed tenet with a headshot using a galilar
+Tick: 868 : ***King*** killed Dairy Milk Silukku with a headshot using a famas
+Tick: 1214 : buddha killed tenet with a headshot using a m4a1
+Tick: 1314 : ***King*** killed Dairy Milk Silukku with a headshot using a m4a1
+Tick: 1670 : buddha killed tenet with a headshot using a usp_silencer
+Tick: 1724 : Dairy Milk Silukku killed ***King*** with a headshot using a ak47
+Tick: 2196 : ***King*** killed buddha with a headshot using a glock
+Tick: 2584 : buddha killed ***King*** with a headshot using a deagle
+Tick: 2870 : Dairy Milk Silukku killed tenet with a headshot using a deagle
+Tick: 3032 : The Punisher killed JESUSPEEK_FAZE  RAIn with a headshot using a m4a1
+Tick: 3062 : ***King*** killed buddha with a headshot using a ak47
+Tick: 3136 : tenet killed Dairy Milk Silukku with a headshot using a famas
+Tick: 3352 : tenet killed Dairy Milk Silukku with a headshot using a galilar
+Tick: 3522 : tenet killed Dairy Milk Silukku with a headshot using a m4a1_silencer
+Tick: 3530 : Farhad s#MahsaAmini killed pika pika with a headshot using a galilar
+Tick: 3598 : The Punisher killed JESUSPEEK_FAZE  RAIn with a headshot using a galilar
+Tick: 3602 : buddha killed ***King*** using a ak47
+Tick: 3852 : Dairy Milk Silukku killed tenet with a headshot using a m4a1
+Tick: 4046 : The Punisher killed ***King*** with a headshot using a deagle
+Tick: 4464 : ***King*** killed The Punisher with a headshot using a deagle
+Tick: 4562 : pika pika killed Farhad s#MahsaAmini with a headshot using a galilar
+Tick: 4684 : !!g@mE_0v3R!! killed hambal with a headshot using a deagle
+Tick: 4862 : pika pika killed Farhad s#MahsaAmini with a headshot using a deagle
+Tick: 4932 : buddha killed JESUSPEEK_FAZE  RAIn with a headshot using a galilar
+Tick: 5150 : Dairy Milk Silukku killed tenet with a headshot using a deagle
+Tick: 5208 : buddha killed Farhad s#MahsaAmini with a headshot using a famas
+Tick: 5232 : !!g@mE_0v3R!! killed hambal with a headshot using a famas
+Tick: 5322 : ***King*** killed The Punisher with a headshot using a usp_silencer
+Tick: 5410 : tenet killed Dairy Milk Silukku with a headshot using a m4a1
+Tick: 5416 : buddha killed Farhad s#MahsaAmini using a awp
+Tick: 5776 : ***King*** killed Dairy Milk Silukku with a headshot using a usp_silencer
+Tick: 5834 : pika pika killed JESUSPEEK_FAZE  RAIn with a headshot using a m4a1_silencer
+Tick: 5844 : The Punisher killed !!g@mE_0v3R!! with a headshot using a m4a1_silencer
+Tick: 6076 : ***King*** killed Dairy Milk Silukku with a headshot using a m4a1_silencer
+Tick: 6348 : The Punisher killed JESUSPEEK_FAZE  RAIn with a headshot using a deagle
+Tick: 6374 : tenet killed hambal with a headshot using a ak47
+Tick: 6378 : buddha killed Farhad s#MahsaAmini with a headshot using a ak47
+Tick: 6582 : Dairy Milk Silukku killed ***King*** using a glock
+Tick: 6956  Event: cs_pre_restart
+Tick: 6979  Event: bomb_pickup
+Tick: 6979  Event: round_start
+Tick: 7935  Event: round_freeze_end
+Tick: 8145  Event: bomb_dropped
+Tick: 8393  Event: bomb_pickup
+Tick: 9323 : Dairy Milk Silukku killed tenet with a headshot using a hkp2000
+Tick: 9351  Event: bomb_beginplant
+Tick: 9549  Event: bomb_dropped
+Tick: 9549 : Dairy Milk Silukku killed !!g@mE_0v3R!! with a headshot using a hkp2000
+Tick: 10177 : ***King*** killed The Punisher using a glock
+Tick: 10467 : hambal killed Farhad s#MahsaAmini with a headshot using a usp_silencer
+Tick: 11411 : pika pika killed JESUSPEEK_FAZE  RAIn with a headshot using a usp_silencer
+Tick: 11743 : buddha killed ***King*** with a headshot using a usp_silencer
+Tick: 11743  Event: round_end
+Tick: 12173  Event: cs_pre_restart
+Tick: 12195  Event: bomb_pickup
+Tick: 12195  Event: round_start
+Tick: 13153  Event: round_freeze_end
+Tick: 14231 : The Punisher killed !!g@mE_0v3R!! with a headshot using a bizon
+Tick: 14255 : Farhad s#MahsaAmini killed The Punisher using a mac10
+Tick: 14547 : ***King*** killed hambal with a headshot using a deagle
+Tick: 15019 : buddha killed ***King*** using a ssg08
+Tick: 15407 : JESUSPEEK_FAZE  RAIn killed  using a world
+Tick: 15433 : buddha killed tenet with a headshot using a ssg08
+Tick: 15799 : Farhad s#MahsaAmini killed pika pika using a bizon
+Tick: 19367  Event: bomb_beginplant
+Tick: 19565  Event: bomb_planted
+Tick: 20073 : Farhad s#MahsaAmini killed Dairy Milk Silukku using a mp9
+Tick: 20863  Event: bomb_begindefuse
+Tick: 21265  Event: bomb_begindefuse
+Tick: 21331 : Farhad s#MahsaAmini killed buddha using a mp9
+Tick: 21331  Event: round_end
+Tick: 21761  Event: cs_pre_restart
+Tick: 21779  Event: bomb_pickup
+Tick: 21779  Event: round_start
+Tick: 30420  Event: round_freeze_end
+Tick: 30584  Event: bomb_dropped
+Tick: 30748  Event: bomb_pickup
+Tick: 33216 : The Punisher killed Farhad s#MahsaAmini using a mp9
+Tick: 33606  Event: bomb_dropped
+Tick: 33606 : pika pika killed !!g@mE_0v3R!! with a headshot using a mp9
+Tick: 34100 : ***King*** killed pika pika with a headshot using a ak47
+Tick: 34414 : The Punisher killed ***King*** using a mp9
+Tick: 37372 : hambal killed tenet using a ump45
+Tick: 37372  Event: round_end
+Tick: 37804  Event: cs_pre_restart
+Tick: 37822  Event: bomb_pickup
+Tick: 37822  Event: round_start
+Tick: 38783  Event: round_freeze_end
+Tick: 38839  Event: bomb_dropped
+Tick: 39153  Event: bomb_pickup
+Tick: 39643 : ***King*** killed buddha with a headshot using a ssg08
+Tick: 39985 : pika pika killed tenet using a ak47
+Tick: 40263  Event: bomb_dropped
+Tick: 40263 : The Punisher killed Farhad s#MahsaAmini using a p90
+Tick: 40303  Event: bomb_pickup
+Tick: 40357 : !!g@mE_0v3R!! killed The Punisher using a mac10
+Tick: 41309  Event: bomb_dropped
+Tick: 41309 : pika pika killed !!g@mE_0v3R!! using a ak47
+Tick: 41743 : Dairy Milk Silukku killed ***King*** using a mp9
+Tick: 41743  Event: round_end
+Tick: 42171  Event: cs_pre_restart
+Tick: 42193  Event: bomb_pickup
+Tick: 42193  Event: round_start
+Tick: 43151  Event: round_freeze_end
+Tick: 43823 : ***King*** killed Dairy Milk Silukku with a headshot using a deagle
+Tick: 44061 : pika pika killed ***King*** using a ak47
+Tick: 44109  Event: bomb_dropped
+Tick: 44223 : The Punisher killed tenet using a bizon
+Tick: 44685  Event: bomb_pickup
+Tick: 44859 : pika pika killed Farhad s#MahsaAmini using a ak47
+Tick: 44885  Event: bomb_dropped
+Tick: 44885 : The Punisher killed !!g@mE_0v3R!! using a bizon
+Tick: 44885  Event: round_end
+Tick: 45317  Event: cs_pre_restart
+Tick: 45335  Event: bomb_pickup
+Tick: 45335  Event: round_start
+Tick: 46296  Event: round_freeze_end
+Tick: 47382 : buddha killed tenet with a headshot using a m4a1
+Tick: 47842  Event: bomb_dropped
+Tick: 48060  Event: bomb_pickup
+Tick: 48214  Event: bomb_dropped
+Tick: 49188  Event: bomb_pickup
+Tick: 49228 : Dairy Milk Silukku killed !!g@mE_0v3R!! using a awp
+Tick: 49644 : ***King*** killed The Punisher with a headshot using a ak47
+Tick: 50176  Event: bomb_dropped
+Tick: 50176 : buddha killed Farhad s#MahsaAmini with a headshot using a m4a1
+Tick: 50198 : Dairy Milk Silukku killed ***King*** with a headshot using a awp
+Tick: 50198  Event: round_end
+Tick: 50630  Event: cs_pre_restart
+Tick: 50648  Event: bomb_pickup
+Tick: 50648  Event: round_start
+Tick: 51609  Event: round_freeze_end
+Tick: 52267 : Dairy Milk Silukku killed ***King*** using a awp
+Tick: 52625 : The Punisher killed Farhad s#MahsaAmini using a bizon
+Tick: 52697 : !!g@mE_0v3R!! killed The Punisher using a mp5sd
+Tick: 52777  Event: bomb_dropped
+Tick: 52777 : pika pika killed tenet using a ak47
+Tick: 54257 : buddha killed !!g@mE_0v3R!! with a headshot using a ak47
+Tick: 54257  Event: round_end
+Tick: 54687  Event: cs_pre_restart
+Tick: 54709  Event: bomb_pickup
+Tick: 54709  Event: round_start
+Tick: 54873  Event: bomb_dropped
+Tick: 55667  Event: round_freeze_end
+Tick: 55827  Event: bomb_pickup
+Tick: 56743 : tenet killed The Punisher with a headshot using a ak47
+Tick: 57051 : ***King*** killed pika pika using a ak47
+Tick: 57379 : buddha killed tenet with a headshot using a ak47
+Tick: 57785  Event: bomb_beginplant
+Tick: 57983  Event: bomb_planted
+Tick: 58625 : ***King*** killed hambal with a headshot using a ak47
+Tick: 59027 : buddha killed !!g@mE_0v3R!! using a ak47
+Tick: 59289 : ***King*** killed Dairy Milk Silukku with a headshot using a ak47
+Tick: 59763  Event: bomb_begindefuse
+Tick: 59849 : Farhad s#MahsaAmini killed buddha with a headshot using a ak47
+Tick: 59849  Event: round_end
+Tick: 60279  Event: cs_pre_restart
+Tick: 60301  Event: bomb_pickup
+Tick: 60301  Event: round_start
+Tick: 61259  Event: round_freeze_end
+Tick: 64127  Event: bomb_dropped
+Tick: 64273  Event: bomb_pickup
+Tick: 64487 : ***King*** killed hambal using a awp
+Tick: 65067 : ***King*** killed Dairy Milk Silukku using a awp
+Tick: 65647 : The Punisher killed ***King*** using a p90
+Tick: 66057 : buddha killed !!g@mE_0v3R!! using a m4a1
+Tick: 66239  Event: bomb_dropped
+Tick: 66239 : The Punisher killed Farhad s#MahsaAmini using a p90
+Tick: 66361 : The Punisher killed tenet using a p90
+Tick: 66361  Event: round_end
+Tick: 66793  Event: cs_pre_restart
+Tick: 66811  Event: bomb_pickup
+Tick: 66811  Event: round_start
+Tick: 67772  Event: round_freeze_end
+Tick: 68626 : The Punisher killed !!g@mE_0v3R!! with a headshot using a p90
+Tick: 69090 : buddha killed ***King*** with a headshot using a ak47
+Tick: 69626 : Farhad s#MahsaAmini killed The Punisher using a awp
+Tick: 69986 : Dairy Milk Silukku killed tenet using a m4a1_silencer
+Tick: 70032 : Farhad s#MahsaAmini killed Dairy Milk Silukku using a awp
+Tick: 70360  Event: bomb_dropped
+Tick: 70360 : buddha killed Farhad s#MahsaAmini with a headshot using a ak47
+Tick: 70360  Event: round_end
+Tick: 70790  Event: cs_pre_restart
+Tick: 70808  Event: bomb_pickup
+Tick: 70808  Event: round_start
+Tick: 71618  Event: bomb_dropped
+Tick: 71644  Event: round_end
+Tick: 71838  Event: announce_phase_end
