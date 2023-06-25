@@ -1,6 +1,7 @@
 **Functionalities**
   1. Converts a CS GO demo file into a video file
-  2. Skips from player death to next round directly 
+  2. Skips from player death to next round directly
+  3. Create a demo review of your match
 
 **Steps to run :**
   1. Install python 3 on your system and install the following package : <i>pip3 install obs-websocket-py</i> for obs websocket wrapper
@@ -16,6 +17,7 @@
       _<br/>logFile = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\console.log"<br/>
       steamPath = "C:\\Program Files (x86)\\Steam\\"<br/>
       playername = 'buddha#skinsmonkey'_
+  11. Close any open instances of csgo
   12. cd to your code directory, keep obs open and now you can run the script as : _python recording.py_
 
 **Future Plans**
