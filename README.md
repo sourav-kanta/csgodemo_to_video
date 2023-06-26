@@ -1,5 +1,3 @@
-<video src="https://github.com/sourav-kanta/csgodemo_to_video/blob/main/sample%20video/demo_sample.mp4"/>
-
 **Functionalities**
   1. Converts a CS GO demo file into a video file
   2. Skips from player death to next round directly
