@@ -17,7 +17,7 @@
 **Steps to run**
   1. Copy the demo file you want to convert to video in the **demo folder** inside your repository and rename to demo.dem
   2. cd to your _repository directory_, **keep obs open** and now you can run the script as : _python recorder.py_
-  3. Output video name _demo.mkv_ will be created in  _<repository directory>\\demo_ folder 
+  3. Output video name _demo.mkv_ will be created in  _<repository_directory>\\demo_ folder 
 
  
 
