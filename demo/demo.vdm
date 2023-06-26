@@ -5,34 +5,139 @@ demoactions
 		factory "SkipAhead"
 		name "Unnamed1"
 		starttick "0"
-		skiptotick"6956"
+		skiptotick"6958"
 	}
 	"2"
 	{
 		factory "PlayCommands"
 		name "Unnamed2"
-		starttick "6966"
+		starttick "6968"
 		commands"demo_pause"
 	}
 	"3"
 	{
 		factory "SkipAhead"
 		name "Unnamed3"
-		starttick "21331"
-		skiptotick"21779"
+		starttick "12934"
+		skiptotick"14720"
 	}
 	"4"
 	{
 		factory "SkipAhead"
 		name "Unnamed4"
-		starttick "39643"
-		skiptotick"42193"
+		starttick "16510"
+		skiptotick"24134"
 	}
 	"5"
 	{
 		factory "SkipAhead"
 		name "Unnamed5"
-		starttick "59849"
-		skiptotick"60301"
+		starttick "34361"
+		skiptotick"34814"
+	}
+	"6"
+	{
+		factory "SkipAhead"
+		name "Unnamed6"
+		starttick "38238"
+		skiptotick"40226"
+	}
+	"7"
+	{
+		factory "SkipAhead"
+		name "Unnamed7"
+		starttick "43470"
+		skiptotick"44425"
+	}
+	"8"
+	{
+		factory "SkipAhead"
+		name "Unnamed8"
+		starttick "55548"
+		skiptotick"56168"
+	}
+	"9"
+	{
+		factory "SkipAhead"
+		name "Unnamed9"
+		starttick "60166"
+		skiptotick"63770"
+	}
+	"10"
+	{
+		factory "SkipAhead"
+		name "Unnamed10"
+		starttick "83908"
+		skiptotick"84655"
+	}
+	"11"
+	{
+		factory "SkipAhead"
+		name "Unnamed11"
+		starttick "87025"
+		skiptotick"89628"
+	}
+	"12"
+	{
+		factory "SkipAhead"
+		name "Unnamed12"
+		starttick "98214"
+		skiptotick"100468"
+	}
+	"13"
+	{
+		factory "SkipAhead"
+		name "Unnamed13"
+		starttick "107503"
+		skiptotick"109162"
+	}
+	"14"
+	{
+		factory "SkipAhead"
+		name "Unnamed14"
+		starttick "119159"
+		skiptotick"119610"
+	}
+	"15"
+	{
+		factory "SkipAhead"
+		name "Unnamed15"
+		starttick "131530"
+		skiptotick"133734"
+	}
+	"16"
+	{
+		factory "SkipAhead"
+		name "Unnamed16"
+		starttick "135422"
+		skiptotick"137069"
+	}
+	"17"
+	{
+		factory "SkipAhead"
+		name "Unnamed17"
+		starttick "140835"
+		skiptotick"141944"
+	}
+	"18"
+	{
+		factory "SkipAhead"
+		name "Unnamed18"
+		starttick "145028"
+		skiptotick"145915"
+	}
+	"19"
+	{
+		factory "SkipAhead"
+		name "Unnamed19"
+		starttick "150049"
+		skiptotick"154398"
+	}
+	"20"
+	{
+		factory "SkipAhead"
+		name "Unnamed20"
+		starttick "165513"
+		skiptotick"167774"
 	}
 }
