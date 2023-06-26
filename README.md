@@ -14,7 +14,7 @@
   8. Download awp_mirage map from Steam workshop (Check by manually opening CSGO and typing map awp_mirage in console)
   9. Open the recorder.py file and update the 5 global variables as per your setup : _logFile, steamPath, vdmFile, tickfile, playername_
 
-** Steps to run **
+**Steps to run**
   1. Copy the demo file you want to convert to video in the **demo folder** inside your repository and rename to demo.dem
   3. cd to your _repository directory_, **keep obs open** and now you can run the script as : _python recorder.py_
 
