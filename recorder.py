@@ -12,14 +12,32 @@ import keypress
 import win32gui
 import re
 import win32com.client
-from obswebsocket import obsws, requests 
+from obswebsocket import obsws, requests
+import shutil 
 
+# Change this to "<your csgo folder>\\console.log"  
+# This file is created once -condebug is added in csgo launch options
 logFile = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\console.log"
+# Change this to your Steam directory where steam.exe is located
 steamPath = "C:\\Program Files (x86)\\Steam\\"
+# Change this to <folder where you pulled the repository>\\demo\\demo.vdm
+# File demo.vdm will be created by this program to skip after player deaths
 vdmFile = "C:\\Users\\soura\\OneDrive\\Desktop\\scripts\\demo\\demo.vdm"
-tickfile = "C:\\Users\\soura\\OneDrive\\Desktop\\scripts\\ticks.txt" 
+# Change this to <folder where you pulled the repository>\\ticks.txt
+# This file would be created to list important ticks in the demo
+tickfile = "C:\\Users\\soura\\OneDrive\\Desktop\\scripts\\ticks.txt"
+# Change this to your csgo username
+# Has to be the username you played in the demo with 
 playername = 'buddha#skinsmonkey'
 
+# OBS websocket connection
+host = "localhost"
+port = 4455
+ws = obsws(host, port)
+ws.connect()
+
+# Class to handle window switching to CSGO
+# Blatantly copied from stackoverflow !
 class WindowMgr:
     """Encapsulates some calls to the winapi for window management"""
 
@@ -46,13 +64,15 @@ class WindowMgr:
         shell = win32com.client.Dispatch("WScript.Shell")
         shell.SendKeys('%')
         win32gui.SetForegroundWindow(self._handle)
-        
+
+# Run a command on windows shell        
 def runCmd(cmd) :
     proc = subprocess.Popen(cmd, shell = True, stdin = subprocess.PIPE, stdout = subprocess.PIPE)
     stdout, stderr = proc.communicate()
     if stderr :
         print("Error while executing : " + cmd + " : " + stderr)
-      
+
+# Wait till text is found in console.log file        
 def waitForText(text) :
     while True :
         if os.path.isfile(logFile) : 
@@ -62,12 +82,17 @@ def waitForText(text) :
                     if re.search(text, line) :
                         return 
 
+# Check if we can use binds 
+# Binds in csgo only works if we are in a map and not on main menu
 def checkIfCsReady() : 
     waitForText('Map: awp_mirage')
 
+# Wait till demo loads first time 
+# Using this to run demo_listimportantticks
 def waitTillDemoReady() :
     waitForText('DemoStartedRecording')            
 
+# Start csgo
 def startCs() :
     os.chdir(steamPath)
     if os.path.isfile(logFile) : 
@@ -79,11 +104,14 @@ def startCs() :
     time.sleep(30)
     print("CS GO ready now")
 
+# Switch current window to CSGO. Done to avoid user minimising CS
 def makeCsActiveWindow() :
     w = WindowMgr()
     w.find_window_wildcard("Counter-Strike: Global Offensive")
     w.set_foreground()
 
+# Separate out the Tick entries from console.log file after
+# running command : demo_listimportantticks
 def writeTickFile() :
     time.sleep(10)
     if os.path.isfile(tickfile) :
@@ -97,6 +125,8 @@ def writeTickFile() :
                     if "Tick:" in line :
                         tickF.write(line.rstrip() + "\n")
 
+# Generate the VDM file contents. Using this to skip from player death
+# to next round
 def generateVdmContent() :
     vdmLines = []
     vdmLines.append('demoactions\n')
@@ -145,6 +175,7 @@ def generateVdmContent() :
     with open(vdmFile,'w') as vdmF :
         vdmF.writelines(vdmLines)
 
+# Generate the vdm file
 def createVdmFile() :
     print("Starting Demo")
     makeCsActiveWindow()
@@ -157,15 +188,21 @@ def createVdmFile() :
     writeTickFile()
     generateVdmContent()
             
+# Again load the demo after vdm file has been created    
 def playFinalDemo() :
     print("Playing Final demo")
     makeCsActiveWindow()
     time.sleep(3)
     keypress.SimulateKey(keypress.VK_T)
 
+# Increase usability so user doest have to keep OBS running
 def startObs() :
+    # To-Do 
+    # Add a GUI to setup 
     return
 
+# Check if the final demo has finished. Check if the searched message
+# appears twice in console.log. If yes we know demo finished playing 
 def waitTillDemoFinish() :
     while True :
         if os.path.isfile(logFile) : 
@@ -180,25 +217,46 @@ def waitTillDemoFinish() :
                             print("Demo Finished")
                             return 
     
-
+# Final demo has loaded. Start recording
 def startRecording() :
-    host = "localhost"
-    port = 4455
-    ws = obsws(host, port)
-    ws.connect()
     try:
+        # Automated OBS scene creation so user doesnt have to 
+        # worry about adding CSGO as a source
+        ws.call(requests.CreateScene(sceneName = "CS Demo"))
+        ws.call(requests.CreateInput(sceneName="CS Demo",
+                                     inputName="CS Window",
+                                     inputKind = "window_capture",
+                                     inputSettings = {
+                                         'window': 'Global Offensive:Valve001:csgo.exe'
+                                         }))
+        ws.call(requests.SetCurrentProgramScene(sceneName = "CS Demo"))
         ws.call(requests.StartRecord())
         makeCsActiveWindow()
+        # Awkward hack as CSGO does seem to spectate player in warmup
+        # To fix pressing the bind m twice to make sure 
         keypress.SimulateKey(keypress.VK_M)
         time.sleep(5)
         keypress.SimulateKey(keypress.VK_M)
-        waitTillDemoFinish()
-        ws.call(requests.StopRecord())
-        runCmd("taskkill /f /im csgo.exe")
     except KeyboardInterrupt:
-        pass
-    ws.disconnect()   
+        stopRecording()
+       
+# Demo playback finished. Stop recording, kill csgo, copy output file to 
+# <folder you downloaded repository>\\demo folder, disconnect OBS websocket
+def stopRecording() :
+    recResponse = ws.call(requests.StopRecord())
+    ws.call(requests.RemoveScene(sceneName = "CS Demo"))
+    runCmd("taskkill /f /im csgo.exe")
+    ws.disconnect()
+    videoFile = recResponse.datain['outputPath']
+    dirPath = os.path.dirname(vdmFile)
+    dstVideoFile = os.path.join(dirPath,'demo.mkv')
+    shutil.copy(videoFile,dstVideoFile)
+    os.remove(videoFile)
 
+# Driver 
+# TODO drive through buttons on GUI
+# Thinking of adding PyQt interface for seeting up global variables and buttons
+# for recording demo videos and uploading to youtube
 startObs()
 startCs()   
 createVdmFile() 
@@ -206,3 +264,5 @@ time.sleep(50)
 playFinalDemo()
 time.sleep(50)
 startRecording()
+waitTillDemoFinish()
+stopRecording()

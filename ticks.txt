@@ -1,188 +1,532 @@
-Tick: 790 : buddha killed tenet with a headshot using a galilar
-Tick: 868 : ***King*** killed Dairy Milk Silukku with a headshot using a famas
-Tick: 1214 : buddha killed tenet with a headshot using a m4a1
-Tick: 1314 : ***King*** killed Dairy Milk Silukku with a headshot using a m4a1
-Tick: 1670 : buddha killed tenet with a headshot using a usp_silencer
-Tick: 1724 : Dairy Milk Silukku killed ***King*** with a headshot using a ak47
-Tick: 2196 : ***King*** killed buddha with a headshot using a glock
-Tick: 2584 : buddha killed ***King*** with a headshot using a deagle
-Tick: 2870 : Dairy Milk Silukku killed tenet with a headshot using a deagle
-Tick: 3032 : The Punisher killed JESUSPEEK_FAZE  RAIn with a headshot using a m4a1
-Tick: 3062 : ***King*** killed buddha with a headshot using a ak47
-Tick: 3136 : tenet killed Dairy Milk Silukku with a headshot using a famas
-Tick: 3352 : tenet killed Dairy Milk Silukku with a headshot using a galilar
-Tick: 3522 : tenet killed Dairy Milk Silukku with a headshot using a m4a1_silencer
-Tick: 3530 : Farhad s#MahsaAmini killed pika pika with a headshot using a galilar
-Tick: 3598 : The Punisher killed JESUSPEEK_FAZE  RAIn with a headshot using a galilar
-Tick: 3602 : buddha killed ***King*** using a ak47
-Tick: 3852 : Dairy Milk Silukku killed tenet with a headshot using a m4a1
-Tick: 4046 : The Punisher killed ***King*** with a headshot using a deagle
-Tick: 4464 : ***King*** killed The Punisher with a headshot using a deagle
-Tick: 4562 : pika pika killed Farhad s#MahsaAmini with a headshot using a galilar
-Tick: 4684 : !!g@mE_0v3R!! killed hambal with a headshot using a deagle
-Tick: 4862 : pika pika killed Farhad s#MahsaAmini with a headshot using a deagle
-Tick: 4932 : buddha killed JESUSPEEK_FAZE  RAIn with a headshot using a galilar
-Tick: 5150 : Dairy Milk Silukku killed tenet with a headshot using a deagle
-Tick: 5208 : buddha killed Farhad s#MahsaAmini with a headshot using a famas
-Tick: 5232 : !!g@mE_0v3R!! killed hambal with a headshot using a famas
-Tick: 5322 : ***King*** killed The Punisher with a headshot using a usp_silencer
-Tick: 5410 : tenet killed Dairy Milk Silukku with a headshot using a m4a1
-Tick: 5416 : buddha killed Farhad s#MahsaAmini using a awp
-Tick: 5776 : ***King*** killed Dairy Milk Silukku with a headshot using a usp_silencer
-Tick: 5834 : pika pika killed JESUSPEEK_FAZE  RAIn with a headshot using a m4a1_silencer
-Tick: 5844 : The Punisher killed !!g@mE_0v3R!! with a headshot using a m4a1_silencer
-Tick: 6076 : ***King*** killed Dairy Milk Silukku with a headshot using a m4a1_silencer
-Tick: 6348 : The Punisher killed JESUSPEEK_FAZE  RAIn with a headshot using a deagle
-Tick: 6374 : tenet killed hambal with a headshot using a ak47
-Tick: 6378 : buddha killed Farhad s#MahsaAmini with a headshot using a ak47
-Tick: 6582 : Dairy Milk Silukku killed ***King*** using a glock
-Tick: 6956  Event: cs_pre_restart
-Tick: 6979  Event: bomb_pickup
-Tick: 6979  Event: round_start
-Tick: 7935  Event: round_freeze_end
-Tick: 8145  Event: bomb_dropped
-Tick: 8393  Event: bomb_pickup
-Tick: 9323 : Dairy Milk Silukku killed tenet with a headshot using a hkp2000
-Tick: 9351  Event: bomb_beginplant
-Tick: 9549  Event: bomb_dropped
-Tick: 9549 : Dairy Milk Silukku killed !!g@mE_0v3R!! with a headshot using a hkp2000
-Tick: 10177 : ***King*** killed The Punisher using a glock
-Tick: 10467 : hambal killed Farhad s#MahsaAmini with a headshot using a usp_silencer
-Tick: 11411 : pika pika killed JESUSPEEK_FAZE  RAIn with a headshot using a usp_silencer
-Tick: 11743 : buddha killed ***King*** with a headshot using a usp_silencer
-Tick: 11743  Event: round_end
-Tick: 12173  Event: cs_pre_restart
-Tick: 12195  Event: bomb_pickup
-Tick: 12195  Event: round_start
-Tick: 13153  Event: round_freeze_end
-Tick: 14231 : The Punisher killed !!g@mE_0v3R!! with a headshot using a bizon
-Tick: 14255 : Farhad s#MahsaAmini killed The Punisher using a mac10
-Tick: 14547 : ***King*** killed hambal with a headshot using a deagle
-Tick: 15019 : buddha killed ***King*** using a ssg08
-Tick: 15407 : JESUSPEEK_FAZE  RAIn killed  using a world
-Tick: 15433 : buddha killed tenet with a headshot using a ssg08
-Tick: 15799 : Farhad s#MahsaAmini killed pika pika using a bizon
-Tick: 19367  Event: bomb_beginplant
-Tick: 19565  Event: bomb_planted
-Tick: 20073 : Farhad s#MahsaAmini killed Dairy Milk Silukku using a mp9
-Tick: 20863  Event: bomb_begindefuse
-Tick: 21265  Event: bomb_begindefuse
-Tick: 21331 : Farhad s#MahsaAmini killed buddha using a mp9
-Tick: 21331  Event: round_end
-Tick: 21761  Event: cs_pre_restart
-Tick: 21779  Event: bomb_pickup
-Tick: 21779  Event: round_start
-Tick: 30420  Event: round_freeze_end
-Tick: 30584  Event: bomb_dropped
-Tick: 30748  Event: bomb_pickup
-Tick: 33216 : The Punisher killed Farhad s#MahsaAmini using a mp9
-Tick: 33606  Event: bomb_dropped
-Tick: 33606 : pika pika killed !!g@mE_0v3R!! with a headshot using a mp9
-Tick: 34100 : ***King*** killed pika pika with a headshot using a ak47
-Tick: 34414 : The Punisher killed ***King*** using a mp9
-Tick: 37372 : hambal killed tenet using a ump45
-Tick: 37372  Event: round_end
-Tick: 37804  Event: cs_pre_restart
-Tick: 37822  Event: bomb_pickup
-Tick: 37822  Event: round_start
-Tick: 38783  Event: round_freeze_end
-Tick: 38839  Event: bomb_dropped
-Tick: 39153  Event: bomb_pickup
-Tick: 39643 : ***King*** killed buddha with a headshot using a ssg08
-Tick: 39985 : pika pika killed tenet using a ak47
-Tick: 40263  Event: bomb_dropped
-Tick: 40263 : The Punisher killed Farhad s#MahsaAmini using a p90
-Tick: 40303  Event: bomb_pickup
-Tick: 40357 : !!g@mE_0v3R!! killed The Punisher using a mac10
-Tick: 41309  Event: bomb_dropped
-Tick: 41309 : pika pika killed !!g@mE_0v3R!! using a ak47
-Tick: 41743 : Dairy Milk Silukku killed ***King*** using a mp9
-Tick: 41743  Event: round_end
-Tick: 42171  Event: cs_pre_restart
-Tick: 42193  Event: bomb_pickup
-Tick: 42193  Event: round_start
-Tick: 43151  Event: round_freeze_end
-Tick: 43823 : ***King*** killed Dairy Milk Silukku with a headshot using a deagle
-Tick: 44061 : pika pika killed ***King*** using a ak47
-Tick: 44109  Event: bomb_dropped
-Tick: 44223 : The Punisher killed tenet using a bizon
-Tick: 44685  Event: bomb_pickup
-Tick: 44859 : pika pika killed Farhad s#MahsaAmini using a ak47
-Tick: 44885  Event: bomb_dropped
-Tick: 44885 : The Punisher killed !!g@mE_0v3R!! using a bizon
-Tick: 44885  Event: round_end
-Tick: 45317  Event: cs_pre_restart
-Tick: 45335  Event: bomb_pickup
-Tick: 45335  Event: round_start
-Tick: 46296  Event: round_freeze_end
-Tick: 47382 : buddha killed tenet with a headshot using a m4a1
-Tick: 47842  Event: bomb_dropped
-Tick: 48060  Event: bomb_pickup
-Tick: 48214  Event: bomb_dropped
-Tick: 49188  Event: bomb_pickup
-Tick: 49228 : Dairy Milk Silukku killed !!g@mE_0v3R!! using a awp
-Tick: 49644 : ***King*** killed The Punisher with a headshot using a ak47
-Tick: 50176  Event: bomb_dropped
-Tick: 50176 : buddha killed Farhad s#MahsaAmini with a headshot using a m4a1
-Tick: 50198 : Dairy Milk Silukku killed ***King*** with a headshot using a awp
-Tick: 50198  Event: round_end
-Tick: 50630  Event: cs_pre_restart
-Tick: 50648  Event: bomb_pickup
-Tick: 50648  Event: round_start
-Tick: 51609  Event: round_freeze_end
-Tick: 52267 : Dairy Milk Silukku killed ***King*** using a awp
-Tick: 52625 : The Punisher killed Farhad s#MahsaAmini using a bizon
-Tick: 52697 : !!g@mE_0v3R!! killed The Punisher using a mp5sd
-Tick: 52777  Event: bomb_dropped
-Tick: 52777 : pika pika killed tenet using a ak47
-Tick: 54257 : buddha killed !!g@mE_0v3R!! with a headshot using a ak47
-Tick: 54257  Event: round_end
-Tick: 54687  Event: cs_pre_restart
-Tick: 54709  Event: bomb_pickup
-Tick: 54709  Event: round_start
-Tick: 54873  Event: bomb_dropped
-Tick: 55667  Event: round_freeze_end
-Tick: 55827  Event: bomb_pickup
-Tick: 56743 : tenet killed The Punisher with a headshot using a ak47
-Tick: 57051 : ***King*** killed pika pika using a ak47
-Tick: 57379 : buddha killed tenet with a headshot using a ak47
-Tick: 57785  Event: bomb_beginplant
-Tick: 57983  Event: bomb_planted
-Tick: 58625 : ***King*** killed hambal with a headshot using a ak47
-Tick: 59027 : buddha killed !!g@mE_0v3R!! using a ak47
-Tick: 59289 : ***King*** killed Dairy Milk Silukku with a headshot using a ak47
-Tick: 59763  Event: bomb_begindefuse
-Tick: 59849 : Farhad s#MahsaAmini killed buddha with a headshot using a ak47
-Tick: 59849  Event: round_end
-Tick: 60279  Event: cs_pre_restart
-Tick: 60301  Event: bomb_pickup
-Tick: 60301  Event: round_start
-Tick: 61259  Event: round_freeze_end
-Tick: 64127  Event: bomb_dropped
-Tick: 64273  Event: bomb_pickup
-Tick: 64487 : ***King*** killed hambal using a awp
-Tick: 65067 : ***King*** killed Dairy Milk Silukku using a awp
-Tick: 65647 : The Punisher killed ***King*** using a p90
-Tick: 66057 : buddha killed !!g@mE_0v3R!! using a m4a1
-Tick: 66239  Event: bomb_dropped
-Tick: 66239 : The Punisher killed Farhad s#MahsaAmini using a p90
-Tick: 66361 : The Punisher killed tenet using a p90
-Tick: 66361  Event: round_end
-Tick: 66793  Event: cs_pre_restart
-Tick: 66811  Event: bomb_pickup
-Tick: 66811  Event: round_start
-Tick: 67772  Event: round_freeze_end
-Tick: 68626 : The Punisher killed !!g@mE_0v3R!! with a headshot using a p90
-Tick: 69090 : buddha killed ***King*** with a headshot using a ak47
-Tick: 69626 : Farhad s#MahsaAmini killed The Punisher using a awp
-Tick: 69986 : Dairy Milk Silukku killed tenet using a m4a1_silencer
-Tick: 70032 : Farhad s#MahsaAmini killed Dairy Milk Silukku using a awp
-Tick: 70360  Event: bomb_dropped
-Tick: 70360 : buddha killed Farhad s#MahsaAmini with a headshot using a ak47
-Tick: 70360  Event: round_end
-Tick: 70790  Event: cs_pre_restart
-Tick: 70808  Event: bomb_pickup
-Tick: 70808  Event: round_start
-Tick: 71618  Event: bomb_dropped
-Tick: 71644  Event: round_end
-Tick: 71838  Event: announce_phase_end
+Tick: 324 : Sheikh <3 killed lexa with a headshot using a famas
+Tick: 498 : buddha#skinsmonkey killed Pakeau with a headshot using a ak47
+Tick: 856 : Pakeau killed buddha#skinsmonkey using a m4a1
+Tick: 944 : lexa killed Sheikh <3 with a headshot using a glock
+Tick: 1128 : buddha#skinsmonkey killed Pakeau with a headshot using a m4a1
+Tick: 1348 : buddha#skinsmonkey killed Pakeau with a headshot using a deagle
+Tick: 1650 : Pakeau killed buddha#skinsmonkey with a headshot using a ak47
+Tick: 1758 : lexa killed Cosm1cx using a galilar
+Tick: 2032 : buddha#skinsmonkey killed Pakeau with a headshot using a ak47
+Tick: 2310 : buddha#skinsmonkey killed Pakeau with a headshot using a usp_silencer
+Tick: 2470 : lexa killed Cosm1cx with a headshot using a usp_silencer
+Tick: 2516 : Ma$T3rM!Nd killed one TAP noob with a headshot using a famas
+Tick: 3136 : Ma$T3rM!Nd killed one TAP noob with a headshot using a usp_silencer
+Tick: 3204 : lexa killed Cosm1cx using a m4a1
+Tick: 3368 : Pakeau killed buddha#skinsmonkey with a headshot using a deagle
+Tick: 3716 : Ma$T3rM!Nd killed Cosm1cx with a headshot using a ak47
+Tick: 3844 : buddha#skinsmonkey killed Pakeau with a headshot using a galilar
+Tick: 4006 : lexa killed one TAP noob with a headshot using a usp_silencer
+Tick: 4516 : Pakeau killed buddha#skinsmonkey using a m4a1
+Tick: 4696 : lexa killed one TAP noob with a headshot using a usp_silencer
+Tick: 4800 : Picasso killed Sheikh <3 with a headshot using a awp
+Tick: 5300 : lexa killed one TAP noob with a headshot using a galilar
+Tick: 5302 : Ma$T3rM!Nd killed Sheikh <3 with a headshot using a ak47
+Tick: 5390 : Pakeau killed buddha#skinsmonkey using a usp_silencer
+Tick: 5700 : buddha#skinsmonkey killed Pakeau with a headshot using a galilar
+Tick: 5828 : Ma$T3rM!Nd killed Sheikh <3 with a headshot using a galilar
+Tick: 5928 : lexa killed one TAP noob with a headshot using a usp_silencer
+Tick: 5930 : Picasso killed  using a world
+Tick: 6018 : buddha#skinsmonkey killed Pakeau with a headshot using a awp
+Tick: 6330 : Pakeau killed Ma$T3rM!Nd with a headshot using a m4a1
+Tick: 6440 : buddha#skinsmonkey killed Sheikh <3 with a headshot using a usp_silencer
+Tick: 6546 : lexa killed one TAP noob with a headshot using a glock
+Tick: 6592 : Picasso killed  using a world
+Tick: 6638 : Pakeau killed Ma$T3rM!Nd with a headshot using a m4a1_silencer
+Tick: 6958  Event: cs_pre_restart
+Tick: 6976  Event: bomb_pickup
+Tick: 6976  Event: round_start
+Tick: 10350  Event: round_freeze_end
+Tick: 11502 : SIlvano killed Picasso using a glock
+Tick: 11626 : buddha#skinsmonkey killed SIlvano with a headshot using a usp_silencer
+Tick: 11858  Event: bomb_beginplant
+Tick: 12030 : buddha#skinsmonkey killed Cosm1cx with a headshot using a usp_silencer
+Tick: 12056  Event: bomb_planted
+Tick: 12878 : one TAP noob killed Blooderazer with a headshot using a glock
+Tick: 12934 : one TAP noob killed buddha#skinsmonkey with a headshot using a glock
+Tick: 13210 : Pakeau killed Ma$T3rM!Nd with a headshot using a glock
+Tick: 14272 : one TAP noob killed lexa with a headshot using a glock
+Tick: 14272  Event: round_end
+Tick: 14682  Event: bomb_exploded
+Tick: 14702  Event: cs_pre_restart
+Tick: 14720  Event: bomb_pickup
+Tick: 14720  Event: round_start
+Tick: 15680  Event: round_freeze_end
+Tick: 16328 : Picasso killed Sheikh <3 using a mp7
+Tick: 16510 : one TAP noob killed buddha#skinsmonkey with a headshot using a ak47
+Tick: 16604  Event: bomb_dropped
+Tick: 16604 : Picasso killed Pakeau using a mp7
+Tick: 16620 : SIlvano killed Picasso with a headshot using a mac10
+Tick: 16710 : SIlvano killed Blooderazer using a mac10
+Tick: 16928  Event: bomb_pickup
+Tick: 17152  Event: bomb_dropped
+Tick: 17152 : Ma$T3rM!Nd killed SIlvano with a headshot using a mp9
+Tick: 17338 : Ma$T3rM!Nd killed Cosm1cx with a headshot using a mp9
+Tick: 21132 : one TAP noob killed lexa with a headshot using a ak47
+Tick: 21722  Event: bomb_pickup
+Tick: 22052  Event: bomb_beginplant
+Tick: 22252  Event: bomb_planted
+Tick: 23190 : Ma$T3rM!Nd killed one TAP noob using a mac10
+Tick: 23362  Event: bomb_begindefuse
+Tick: 23684  Event: bomb_defused
+Tick: 23684  Event: round_end
+Tick: 24112  Event: cs_pre_restart
+Tick: 24134  Event: bomb_pickup
+Tick: 24134  Event: round_start
+Tick: 25092  Event: round_freeze_end
+Tick: 25732  Event: bomb_dropped
+Tick: 26188 : Sheikh <3 killed lexa with a headshot using a deagle
+Tick: 26218 : Picasso killed one TAP noob using a m4a1_silencer
+Tick: 26252  Event: bomb_pickup
+Tick: 26554 : Blooderazer killed Sheikh <3 with a headshot using a aug
+Tick: 26772 : buddha#skinsmonkey killed Pakeau with a headshot using a m4a1
+Tick: 28072 : Picasso killed SIlvano with a headshot using a m4a1_silencer
+Tick: 29132  Event: bomb_dropped
+Tick: 29132 : Picasso killed Cosm1cx with a headshot using a m4a1_silencer
+Tick: 29132  Event: round_end
+Tick: 29560  Event: cs_pre_restart
+Tick: 29581  Event: bomb_pickup
+Tick: 29581  Event: round_start
+Tick: 29855  Event: bomb_dropped
+Tick: 29891  Event: bomb_pickup
+Tick: 30143  Event: bomb_dropped
+Tick: 30179  Event: bomb_pickup
+Tick: 30539  Event: round_freeze_end
+Tick: 30955  Event: bomb_dropped
+Tick: 30991  Event: bomb_pickup
+Tick: 31835  Event: bomb_dropped
+Tick: 31835 : Picasso killed one TAP noob with a headshot using a m4a1_silencer
+Tick: 31865  Event: bomb_pickup
+Tick: 31921  Event: bomb_dropped
+Tick: 31921 : Picasso killed Cosm1cx using a m4a1_silencer
+Tick: 32041 : Pakeau killed Ma$T3rM!Nd using a revolver
+Tick: 32431 : Sheikh <3 killed lexa using a deagle
+Tick: 33217 : Pakeau killed Blooderazer with a headshot using a m4a1_silencer
+Tick: 34245 : Picasso killed SIlvano with a headshot using a m4a1_silencer
+Tick: 34361 : Pakeau killed buddha#skinsmonkey with a headshot using a m4a1_silencer
+Tick: 34365 : Sheikh <3 killed Picasso with a headshot using a deagle
+Tick: 34365  Event: round_end
+Tick: 34561  Event: bomb_pickup
+Tick: 34793  Event: cs_pre_restart
+Tick: 34814  Event: bomb_pickup
+Tick: 34814  Event: round_start
+Tick: 34874  Event: bomb_dropped
+Tick: 35772  Event: round_freeze_end
+Tick: 35784  Event: bomb_pickup
+Tick: 36408 : Sheikh <3 killed Picasso using a m4a1_silencer
+Tick: 36804 : SIlvano killed Blooderazer using a ak47
+Tick: 36938  Event: bomb_dropped
+Tick: 36938 : Ma$T3rM!Nd killed Pakeau using a awp
+Tick: 37062 : Sheikh <3 killed Ma$T3rM!Nd using a m4a1_silencer
+Tick: 37166  Event: bomb_pickup
+Tick: 37496  Event: bomb_beginplant
+Tick: 37696  Event: bomb_planted
+Tick: 38038 : lexa killed Cosm1cx using a cz75a
+Tick: 38238 : Sheikh <3 killed buddha#skinsmonkey using a deagle
+Tick: 39134 : lexa killed Sheikh <3 using a ak47
+Tick: 39778 : one TAP noob killed lexa using a ak47
+Tick: 39778  Event: round_end
+Tick: 40208  Event: cs_pre_restart
+Tick: 40226  Event: bomb_pickup
+Tick: 40226  Event: round_start
+Tick: 40854  Event: bomb_dropped
+Tick: 41186  Event: round_freeze_end
+Tick: 41778  Event: bomb_pickup
+Tick: 43234 : Pakeau killed Ma$T3rM!Nd using a p90
+Tick: 43330 : Pakeau killed lexa using a p90
+Tick: 43402 : Pakeau killed Picasso using a p90
+Tick: 43470 : Sheikh <3 killed buddha#skinsmonkey using a ak47
+Tick: 43526 : Blooderazer killed Cosm1cx using a fiveseven
+Tick: 43920  Event: bomb_beginplant
+Tick: 43974 : Pakeau killed Blooderazer using a p90
+Tick: 43974  Event: round_end
+Tick: 44120  Event: bomb_planted
+Tick: 44404  Event: cs_pre_restart
+Tick: 44425  Event: bomb_pickup
+Tick: 44425  Event: round_start
+Tick: 44605  Event: bomb_dropped
+Tick: 44663  Event: bomb_pickup
+Tick: 44913  Event: bomb_dropped
+Tick: 44971  Event: bomb_pickup
+Tick: 45383  Event: round_freeze_end
+Tick: 46189  Event: bomb_dropped
+Tick: 46459  Event: bomb_pickup
+Tick: 46667 : buddha#skinsmonkey killed Pakeau using a m4a1
+Tick: 47301 : Sheikh <3 killed lexa with a headshot using a ak47
+Tick: 47377 : buddha#skinsmonkey killed one TAP noob using a m4a1
+Tick: 47479 : Sheikh <3 killed Picasso with a headshot using a ak47
+Tick: 48273 : Blooderazer killed Sheikh <3 using a p90
+Tick: 48481  Event: bomb_beginplant
+Tick: 48683  Event: bomb_planted
+Tick: 49001 : Ma$T3rM!Nd killed Cosm1cx using a m4a1_silencer
+Tick: 49817  Event: bomb_begindefuse
+Tick: 50067 : buddha#skinsmonkey killed SIlvano using a m4a1
+Tick: 50139  Event: bomb_defused
+Tick: 50139  Event: round_end
+Tick: 50567  Event: cs_pre_restart
+Tick: 50588  Event: bomb_pickup
+Tick: 50588  Event: round_start
+Tick: 50732  Event: bomb_dropped
+Tick: 51546  Event: round_freeze_end
+Tick: 51568  Event: bomb_pickup
+Tick: 52152  Event: bomb_dropped
+Tick: 52188  Event: bomb_pickup
+Tick: 52810 : SIlvano killed Picasso with a headshot using a ak47
+Tick: 54118 : Sheikh <3 killed Ma$T3rM!Nd using a ak47
+Tick: 54546  Event: bomb_beginplant
+Tick: 54746  Event: bomb_planted
+Tick: 54866 : buddha#skinsmonkey killed Sheikh <3 with a headshot using a ak47
+Tick: 55452 : SIlvano killed lexa with a headshot using a ak47
+Tick: 55548 : SIlvano killed buddha#skinsmonkey with a headshot using a ak47
+Tick: 55720 : SIlvano killed Blooderazer with a headshot using a ak47
+Tick: 55720  Event: round_end
+Tick: 56150  Event: cs_pre_restart
+Tick: 56168  Event: bomb_pickup
+Tick: 56168  Event: round_start
+Tick: 56864  Event: bomb_dropped
+Tick: 56902  Event: bomb_pickup
+Tick: 57088  Event: bomb_dropped
+Tick: 57128  Event: round_freeze_end
+Tick: 57174  Event: bomb_pickup
+Tick: 57948 : Pakeau killed Picasso using a glock
+Tick: 59232 : Pakeau killed Ma$T3rM!Nd using a awp
+Tick: 59670 : SIlvano killed lexa with a headshot using a ak47
+Tick: 60166 : one TAP noob killed buddha#skinsmonkey using a ak47
+Tick: 60498  Event: bomb_beginplant
+Tick: 60698  Event: bomb_planted
+Tick: 63322  Event: bomb_exploded
+Tick: 63322  Event: round_end
+Tick: 63752  Event: cs_pre_restart
+Tick: 63770  Event: bomb_pickup
+Tick: 63770  Event: round_start
+Tick: 64731  Event: round_freeze_end
+Tick: 65675 : Ma$T3rM!Nd killed Sheikh <3 with a headshot using a famas
+Tick: 65887 : one TAP noob killed Ma$T3rM!Nd using a ak47
+Tick: 65947 : one TAP noob killed Blooderazer using a ak47
+Tick: 66001  Event: bomb_dropped
+Tick: 66001 : lexa killed one TAP noob using a usp_silencer
+Tick: 66229 : SIlvano killed lexa with a headshot using a ak47
+Tick: 66337 : buddha#skinsmonkey killed SIlvano with a headshot using a fiveseven
+Tick: 69039 : Picasso killed Cosm1cx with a headshot using a ak47
+Tick: 69285 : buddha#skinsmonkey killed Pakeau using a awp
+Tick: 69285  Event: round_end
+Tick: 69715  Event: cs_pre_restart
+Tick: 69737  Event: bomb_pickup
+Tick: 69737  Event: round_start
+Tick: 70695  Event: round_freeze_end
+Tick: 71099  Event: bomb_dropped
+Tick: 71267 : Ma$T3rM!Nd killed Sheikh <3 with a headshot using a awp
+Tick: 71947  Event: bomb_pickup
+Tick: 71991 : Cosm1cx killed lexa with a headshot using a ak47
+Tick: 72005 : Ma$T3rM!Nd killed SIlvano using a awp
+Tick: 72873 : Ma$T3rM!Nd killed Cosm1cx with a headshot using a usp_silencer
+Tick: 72913 : Pakeau killed Blooderazer using a sg556
+Tick: 72995 : one TAP noob killed Ma$T3rM!Nd using a ak47
+Tick: 73155 : buddha#skinsmonkey killed one TAP noob with a headshot using a m4a1
+Tick: 73221  Event: bomb_beginplant
+Tick: 73421  Event: bomb_planted
+Tick: 73691 : Picasso killed Pakeau using a awp
+Tick: 74131  Event: bomb_begindefuse
+Tick: 74771  Event: bomb_defused
+Tick: 74771  Event: round_end
+Tick: 75199  Event: cs_pre_restart
+Tick: 75221  Event: bomb_pickup
+Tick: 75221  Event: round_start
+Tick: 75289  Event: bomb_dropped
+Tick: 75327  Event: bomb_pickup
+Tick: 76179  Event: round_freeze_end
+Tick: 77137  Event: bomb_dropped
+Tick: 77235  Event: bomb_pickup
+Tick: 77369 : Picasso killed one TAP noob using a awp
+Tick: 77487 : Picasso killed Pakeau using a awp
+Tick: 78157 : Sheikh <3 killed Picasso using a mac10
+Tick: 78279 : Ma$T3rM!Nd killed Sheikh <3 using a awp
+Tick: 78613  Event: bomb_dropped
+Tick: 78613 : buddha#skinsmonkey killed Cosm1cx using a m4a1
+Tick: 78933 : lexa killed SIlvano using a m4a1_silencer
+Tick: 78933  Event: round_end
+Tick: 79363  Event: cs_pre_restart
+Tick: 79384  Event: bomb_pickup
+Tick: 79384  Event: round_start
+Tick: 79934  Event: bomb_dropped
+Tick: 79976  Event: bomb_pickup
+Tick: 80342  Event: round_freeze_end
+Tick: 80978 : Ma$T3rM!Nd killed one TAP noob using a awp
+Tick: 81422 : Ma$T3rM!Nd killed SIlvano using a awp
+Tick: 82640  Event: bomb_dropped
+Tick: 82640 : buddha#skinsmonkey killed Cosm1cx with a headshot using a ak47
+Tick: 82868 : Pakeau killed Blooderazer using a ak47
+Tick: 83908 : buddha#skinsmonkey killed Sheikh <3 using a ak47
+Tick: 83908 : Pakeau killed buddha#skinsmonkey using a ak47
+Tick: 84206 : Ma$T3rM!Nd killed Pakeau using a awp
+Tick: 84206  Event: round_end
+Tick: 84634  Event: cs_pre_restart
+Tick: 84655  Event: bomb_pickup
+Tick: 84655  Event: round_start
+Tick: 85613  Event: round_freeze_end
+Tick: 86141 : Pakeau killed Ma$T3rM!Nd using a awp
+Tick: 87025 : SIlvano killed buddha#skinsmonkey with a headshot using a ak47
+Tick: 87421  Event: bomb_beginplant
+Tick: 87577 : one TAP noob killed lexa using a ak47
+Tick: 87625  Event: bomb_planted
+Tick: 88031 : Picasso killed Cosm1cx using a m4a1_silencer
+Tick: 88725 : Sheikh <3 killed Picasso using a ak47
+Tick: 89177 : SIlvano killed Blooderazer using a ak47
+Tick: 89177  Event: round_end
+Tick: 89607  Event: cs_pre_restart
+Tick: 89628  Event: bomb_pickup
+Tick: 89628  Event: round_start
+Tick: 89692  Event: bomb_dropped
+Tick: 90586  Event: round_freeze_end
+Tick: 90594  Event: bomb_pickup
+Tick: 90692  Event: bomb_dropped
+Tick: 90906  Event: bomb_pickup
+Tick: 91386 : one TAP noob killed Picasso using a awp
+Tick: 91560 : buddha#skinsmonkey killed Cosm1cx with a headshot using a m4a1
+Tick: 91706 : Pakeau killed Blooderazer using a awp
+Tick: 91942 : one TAP noob killed lexa using a awp
+Tick: 92102  Event: bomb_beginplant
+Tick: 92302  Event: bomb_planted
+Tick: 92612 : buddha#skinsmonkey killed Sheikh <3 with a headshot using a m4a1
+Tick: 92944 : Ma$T3rM!Nd killed Pakeau with a headshot using a aug
+Tick: 93936  Event: bomb_begindefuse
+Tick: 94098 : Ma$T3rM!Nd killed one TAP noob with a headshot using a aug
+Tick: 94258  Event: bomb_defused
+Tick: 94258  Event: round_end
+Tick: 94452  Event: announce_phase_end
+Tick: 95200  Event: cs_pre_restart
+Tick: 95218  Event: bomb_pickup
+Tick: 95218  Event: round_start
+Tick: 96178  Event: round_freeze_end
+Tick: 97464 : buddha#skinsmonkey killed SIlvano with a headshot using a glock
+Tick: 97560  Event: bomb_beginplant
+Tick: 97732 : Ma$T3rM!Nd killed Sheikh <3 using a elite
+Tick: 97760  Event: bomb_planted
+Tick: 98214 : Cosm1cx killed buddha#skinsmonkey using a elite
+Tick: 98874 : Picasso killed Cosm1cx using a glock
+Tick: 99028 : Pakeau killed Blooderazer with a headshot using a hkp2000
+Tick: 99230 : lexa killed one TAP noob using a elite
+Tick: 99368 : Pakeau killed Picasso with a headshot using a hkp2000
+Tick: 99842 : Pakeau killed lexa using a hkp2000
+Tick: 100018 : Ma$T3rM!Nd killed Pakeau with a headshot using a elite
+Tick: 100018  Event: round_end
+Tick: 100386  Event: bomb_exploded
+Tick: 100386 :  killed Ma$T3rM!Nd using a planted_c4
+Tick: 100450  Event: cs_pre_restart
+Tick: 100468  Event: bomb_pickup
+Tick: 100468  Event: round_start
+Tick: 101428  Event: round_freeze_end
+Tick: 102440 : lexa killed Pakeau using a p90
+Tick: 102518 : Ma$T3rM!Nd killed one TAP noob using a mac10
+Tick: 102698  Event: bomb_beginplant
+Tick: 102898  Event: bomb_planted
+Tick: 103114 : buddha#skinsmonkey killed Sheikh <3 using a mac10
+Tick: 103712 : lexa killed Cosm1cx using a p90
+Tick: 103822 : SIlvano killed Picasso with a headshot using a usp_silencer
+Tick: 104078 : Blooderazer killed SIlvano with a headshot using a mp7
+Tick: 104078  Event: round_end
+Tick: 104508  Event: cs_pre_restart
+Tick: 104529  Event: bomb_pickup
+Tick: 104529  Event: round_start
+Tick: 104601  Event: bomb_dropped
+Tick: 104637  Event: bomb_pickup
+Tick: 104901  Event: bomb_dropped
+Tick: 104937  Event: bomb_pickup
+Tick: 105487  Event: round_freeze_end
+Tick: 106585 : Pakeau killed Ma$T3rM!Nd using a m4a1_silencer
+Tick: 106693 : Blooderazer killed Cosm1cx with a headshot using a mp7
+Tick: 107169 : buddha#skinsmonkey killed one TAP noob with a headshot using a mac10
+Tick: 107275 : Sheikh <3 killed Picasso using a m4a1_silencer
+Tick: 107503 : Pakeau killed buddha#skinsmonkey using a m4a1_silencer
+Tick: 108501  Event: bomb_dropped
+Tick: 108501 : SIlvano killed Blooderazer with a headshot using a m4a1_silencer
+Tick: 108631 : lexa killed Pakeau using a p90
+Tick: 108711 : SIlvano killed lexa using a m4a1_silencer
+Tick: 108711  Event: round_end
+Tick: 109141  Event: cs_pre_restart
+Tick: 109162  Event: bomb_pickup
+Tick: 109162  Event: round_start
+Tick: 110120  Event: round_freeze_end
+Tick: 111318 : buddha#skinsmonkey killed Cosm1cx using a ak47
+Tick: 111556 : buddha#skinsmonkey killed one TAP noob using a ak47
+Tick: 112612  Event: bomb_beginplant
+Tick: 112768 : Sheikh <3 killed lexa with a headshot using a m4a1_silencer
+Tick: 112812  Event: bomb_planted
+Tick: 112932 : Pakeau killed Picasso using a m4a1_silencer
+Tick: 113696 : Blooderazer killed SIlvano with a headshot using a ak47
+Tick: 113920 : Blooderazer killed Sheikh <3 with a headshot using a ak47
+Tick: 113954 : buddha#skinsmonkey killed Pakeau with a headshot using a ak47
+Tick: 113954  Event: round_end
+Tick: 114384  Event: cs_pre_restart
+Tick: 114405  Event: bomb_pickup
+Tick: 114405  Event: round_start
+Tick: 114971  Event: bomb_dropped
+Tick: 115013  Event: bomb_pickup
+Tick: 115363  Event: round_freeze_end
+Tick: 116693 : buddha#skinsmonkey killed Cosm1cx using a ak47
+Tick: 116857  Event: bomb_dropped
+Tick: 116991  Event: bomb_pickup
+Tick: 117875 : Pakeau killed Picasso using a mp9
+Tick: 117969 : Blooderazer killed one TAP noob using a m4a1_silencer
+Tick: 117979  Event: bomb_dropped
+Tick: 117979 : Pakeau killed lexa with a headshot using a mp9
+Tick: 118249 : Pakeau killed Blooderazer using a mp9
+Tick: 118347 : SIlvano killed Ma$T3rM!Nd with a headshot using a m4a1_silencer
+Tick: 119159 : Sheikh <3 killed buddha#skinsmonkey using a m4a1_silencer
+Tick: 119159  Event: round_end
+Tick: 119589  Event: cs_pre_restart
+Tick: 119610  Event: bomb_pickup
+Tick: 119610  Event: round_start
+Tick: 120134  Event: bomb_dropped
+Tick: 120568  Event: round_freeze_end
+Tick: 120620  Event: bomb_pickup
+Tick: 121716  Event: bomb_dropped
+Tick: 121750  Event: bomb_pickup
+Tick: 121854  Event: bomb_dropped
+Tick: 121978  Event: bomb_pickup
+Tick: 122044  Event: bomb_dropped
+Tick: 122130 : Blooderazer killed Sheikh <3 using a sg556
+Tick: 122198  Event: bomb_pickup
+Tick: 123388 : SIlvano killed lexa with a headshot using a m4a1_silencer
+Tick: 123644 : Pakeau killed Ma$T3rM!Nd using a famas
+Tick: 123844 : buddha#skinsmonkey killed Cosm1cx using a ak47
+Tick: 123906 : Blooderazer killed Pakeau with a headshot using a sg556
+Tick: 126162  Event: bomb_beginplant
+Tick: 126268  Event: bomb_dropped
+Tick: 126268 : one TAP noob killed Blooderazer using a ak47
+Tick: 126354 : buddha#skinsmonkey killed one TAP noob using a ak47
+Tick: 126820  Event: bomb_pickup
+Tick: 126930  Event: bomb_beginplant
+Tick: 127130  Event: bomb_planted
+Tick: 128804 : buddha#skinsmonkey killed SIlvano using a ak47
+Tick: 128804  Event: round_end
+Tick: 129236  Event: cs_pre_restart
+Tick: 129254  Event: bomb_pickup
+Tick: 129254  Event: round_start
+Tick: 130214  Event: round_freeze_end
+Tick: 131278 : Ma$T3rM!Nd killed Sheikh <3 with a headshot using a mac10
+Tick: 131530 : Pakeau killed buddha#skinsmonkey using a awp
+Tick: 131654 : Pakeau killed Ma$T3rM!Nd using a awp
+Tick: 131656 : Blooderazer killed Cosm1cx with a headshot using a ak47
+Tick: 131790 : lexa killed Pakeau using a p90
+Tick: 131864 : SIlvano killed lexa with a headshot using a ump45
+Tick: 132274 : SIlvano killed Picasso using a awp
+Tick: 133286  Event: bomb_dropped
+Tick: 133286 : SIlvano killed Blooderazer using a awp
+Tick: 133286  Event: round_end
+Tick: 133716  Event: cs_pre_restart
+Tick: 133734  Event: bomb_pickup
+Tick: 133734  Event: round_start
+Tick: 133882  Event: bomb_dropped
+Tick: 133918  Event: bomb_pickup
+Tick: 134694  Event: round_freeze_end
+Tick: 135422 : one TAP noob killed buddha#skinsmonkey using a awp
+Tick: 135800 : Pakeau killed Ma$T3rM!Nd using a m4a1_silencer
+Tick: 135994 : Sheikh <3 killed Picasso using a ak47
+Tick: 136092  Event: bomb_dropped
+Tick: 136092 : Pakeau killed Blooderazer using a m4a1_silencer
+Tick: 136620 : Pakeau killed lexa using a m4a1_silencer
+Tick: 136620  Event: round_end
+Tick: 137048  Event: cs_pre_restart
+Tick: 137069  Event: bomb_pickup
+Tick: 137069  Event: round_start
+Tick: 137889  Event: bomb_dropped
+Tick: 137927  Event: bomb_pickup
+Tick: 138027  Event: round_freeze_end
+Tick: 138343  Event: bomb_dropped
+Tick: 138375  Event: bomb_pickup
+Tick: 139357 : buddha#skinsmonkey killed Cosm1cx with a headshot using a ak47
+Tick: 139919 : Pakeau killed Picasso using a m4a1_silencer
+Tick: 140575  Event: bomb_dropped
+Tick: 140575 : Pakeau killed lexa using a m4a1_silencer
+Tick: 140835 : SIlvano killed buddha#skinsmonkey with a headshot using a m4a1_silencer
+Tick: 140905 : Blooderazer killed SIlvano using a p90
+Tick: 141059 : Pakeau killed Blooderazer using a m4a1_silencer
+Tick: 141493 : Sheikh <3 killed Ma$T3rM!Nd using a ak47
+Tick: 141493  Event: round_end
+Tick: 141923  Event: cs_pre_restart
+Tick: 141944  Event: bomb_pickup
+Tick: 141944  Event: round_start
+Tick: 142784  Event: bomb_dropped
+Tick: 142902  Event: round_freeze_end
+Tick: 142964  Event: bomb_pickup
+Tick: 143338  Event: bomb_dropped
+Tick: 143452  Event: bomb_pickup
+Tick: 143968  Event: bomb_dropped
+Tick: 143968 : one TAP noob killed Blooderazer using a awp
+Tick: 144150 : buddha#skinsmonkey killed one TAP noob with a headshot using a deagle
+Tick: 144780 : Pakeau killed Picasso using a m4a1_silencer
+Tick: 145028 : SIlvano killed buddha#skinsmonkey using a m4a1_silencer
+Tick: 145346 : lexa killed Sheikh <3 with a headshot using a sg556
+Tick: 145376 : Pakeau killed lexa with a headshot using a m4a1_silencer
+Tick: 145464 : SIlvano killed Ma$T3rM!Nd with a headshot using a m4a1_silencer
+Tick: 145464  Event: round_end
+Tick: 145894  Event: cs_pre_restart
+Tick: 145915  Event: bomb_pickup
+Tick: 145915  Event: round_start
+Tick: 146873  Event: round_freeze_end
+Tick: 148509  Event: bomb_dropped
+Tick: 148509 : SIlvano killed lexa using a m4a1
+Tick: 149911 : Ma$T3rM!Nd killed SIlvano using a mac10
+Tick: 150049 : Sheikh <3 killed buddha#skinsmonkey using a m4a1_silencer
+Tick: 150899 : Picasso killed Cosm1cx with a headshot using a ak47
+Tick: 151057  Event: bomb_pickup
+Tick: 151519 : Pakeau killed Picasso using a m4a1_silencer
+Tick: 153097 : Ma$T3rM!Nd killed Pakeau with a headshot using a mac10
+Tick: 153303  Event: bomb_dropped
+Tick: 153303 : Sheikh <3 killed Ma$T3rM!Nd using a m4a1_silencer
+Tick: 153947 : Sheikh <3 killed Blooderazer using a m4a1_silencer
+Tick: 153947  Event: round_end
+Tick: 154377  Event: cs_pre_restart
+Tick: 154398  Event: bomb_pickup
+Tick: 154398  Event: round_start
+Tick: 155356  Event: round_freeze_end
+Tick: 156512 : Picasso killed one TAP noob with a headshot using a p90
+Tick: 156704 : Pakeau killed Picasso with a headshot using a m4a1_silencer
+Tick: 157346 : Pakeau killed lexa with a headshot using a m4a1_silencer
+Tick: 157674 : buddha#skinsmonkey killed Pakeau with a headshot using a ak47
+Tick: 157796  Event: bomb_dropped
+Tick: 157796 : SIlvano killed Blooderazer with a headshot using a m4a1_silencer
+Tick: 157944 : Ma$T3rM!Nd killed Cosm1cx with a headshot using a ak47
+Tick: 158050 : buddha#skinsmonkey killed SIlvano using a ak47
+Tick: 158254  Event: bomb_pickup
+Tick: 158384  Event: bomb_beginplant
+Tick: 158584  Event: bomb_planted
+Tick: 161208  Event: bomb_exploded
+Tick: 161208  Event: round_end
+Tick: 161636  Event: cs_pre_restart
+Tick: 161657  Event: bomb_pickup
+Tick: 161657  Event: round_start
+Tick: 161727  Event: bomb_dropped
+Tick: 161765  Event: bomb_pickup
+Tick: 162615  Event: round_freeze_end
+Tick: 164229 : one TAP noob killed Picasso using a m4a1
+Tick: 164711 : Ma$T3rM!Nd killed Cosm1cx using a ak47
+Tick: 165513 : Pakeau killed buddha#skinsmonkey using a m4a1_silencer
+Tick: 165563  Event: bomb_dropped
+Tick: 165563 : Sheikh <3 killed Blooderazer with a headshot using a m4a1_silencer
+Tick: 165707 : Pakeau killed lexa using a m4a1_silencer
+Tick: 167123 : Ma$T3rM!Nd killed Pakeau using a ak47
+Tick: 167149 : Ma$T3rM!Nd killed Sheikh <3 with a headshot using a ak47
+Tick: 167323 : SIlvano killed Ma$T3rM!Nd using a awp
+Tick: 167323  Event: round_end
+Tick: 167753  Event: cs_pre_restart
+Tick: 167774  Event: bomb_pickup
+Tick: 167774  Event: round_start
+Tick: 168366  Event: bomb_dropped
+Tick: 168732  Event: round_freeze_end
+Tick: 168798  Event: bomb_pickup
+Tick: 169322 : Picasso killed Cosm1cx with a headshot using a mp7
+Tick: 169730  Event: bomb_dropped
+Tick: 169766  Event: bomb_pickup
+Tick: 169882 : SIlvano killed Blooderazer using a awp
+Tick: 170014  Event: bomb_dropped
+Tick: 170014 : SIlvano killed Ma$T3rM!Nd using a awp
+Tick: 170456 : lexa killed SIlvano using a awp
+Tick: 170736  Event: bomb_pickup
+Tick: 171206 : Sheikh <3 killed buddha#skinsmonkey using a scar20
+Tick: 172348  Event: bomb_dropped
+Tick: 172348 : Sheikh <3 killed lexa using a scar20
+Tick: 172354 : one TAP noob killed Picasso using a ak47
+Tick: 172354  Event: round_end
+Tick: 172354  Event: round_freeze_end
+Tick: 172548  Event: announce_phase_end
