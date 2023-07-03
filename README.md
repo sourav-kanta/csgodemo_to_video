@@ -1,28 +1,27 @@
 **Functionalities**
-  1. Converts a CS GO demo file into a video file
+  1. Converts a CS GO demo file into a POV video file
   2. Skips from player death to next round directly
   3. Create a demo review of your match
 
 **First time setup :**
-  1. Install python on your system and install the following package : <i>pip install obs-websocket-py</i> for obs websocket python wrapper
+  1. Install python on your system and install the required package : <i>pip install -r requirements.txt</i> for obs websocket python wrapper
   2. Install OBS and enable Websocket (Tools -> Websocket Server Settings). Tutorial : https://fms-manual.readthedocs.io/en/latest/audience-display/obs-integration/obs-websockets.html
   3. Make sure to <b>Untick Enable Authentication</b>
-  4. Open the recording.cfg file from the code folder and modify the 10th line (spec_player_by_name _buddha#skinsmonkey_) to change to your username
-  5. Update the demo file paths in recording.cfg according to your setup (line 7 and 9)
-  6. Next copy this file to C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg folder
-  7. Open Steam and add the following to CS GO Launch option : _-insecure -condebug +exec recording_
-  8. Download awp_mirage map from Steam workshop (Check by manually opening CSGO and typing map awp_mirage in console)
-  9. Open the recorder.py file and update the 5 global variables as per your setup : _logFile, steamPath, vdmFile, tickfile, playername_
+  4. Open Steam and add the following to CS GO Launch option : _-insecure -condebug +exec recording_
+  5. Download awp_mirage map from Steam workshop (Check by manually opening CSGO and typing map awp_mirage in console)
 
 **Steps to run**
-  1. Copy the demo file you want to convert to video in the **demo folder** inside your repository and rename to demo.dem
-  2. cd to your _repository directory_, **keep obs open** and now you can run the script as : _python recorder.py_
-  3. Output video name _demo.mkv_ will be created in  _<repository_directory>\\demo_ folder 
-
- 
+  1. Start application by :
+     1. cd to your _repository directory_
+     2. python MainMenu.py
+     <br/><br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/d219878a-bbeb-42a0-8518-4a147e2af624)****
+  2. Click on Change Setup button and select the neccessary files and folders. Input the name you played in the demo with and click OK.
+     <br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/1096f7cb-da95-4b5a-93b6-ffd196137845)<br/>
+  3. Click on Start Gnerating Video to start the recording process
+     <br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/2e57033c-4488-4fa5-8634-814718f65d8d)<br/>
+  4. Output video name _demo.mkv_ will be created in the demo_ folder 
 
 **Future Plans**
-  1. Improve usability by automating these steps to run
-  2. Add GUI with configuration options for global variables and create an executable
-  3. Upload these videos to Youtube
-  4. Create a webserver where these youtube videos can be shared for other people to review and give their feedback
+  1. Package application to an executable
+  2. Create a youtube upload feature to upload these videos on youtube
+  3. Create a website where these videos can be viewed and other users can then demo review through comments
