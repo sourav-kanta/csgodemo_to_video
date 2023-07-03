@@ -14,27 +14,51 @@ import re
 import win32com.client
 from obswebsocket import obsws, requests
 import shutil 
+import json
+import logging
+import pythoncom
 
-# Change this to "<your csgo folder>\\console.log"  
-# This file is created once -condebug is added in csgo launch options
-logFile = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\console.log"
-# Change this to your Steam directory where steam.exe is located
-steamPath = "C:\\Program Files (x86)\\Steam\\"
-# Change this to <folder where you pulled the repository>\\demo\\demo.vdm
-# File demo.vdm will be created by this program to skip after player deaths
-vdmFile = "C:\\Users\\soura\\OneDrive\\Desktop\\scripts\\demo\\demo.vdm"
-# Change this to <folder where you pulled the repository>\\ticks.txt
-# This file would be created to list important ticks in the demo
-tickfile = "C:\\Users\\soura\\OneDrive\\Desktop\\scripts\\ticks.txt"
-# Change this to your csgo username
-# Has to be the username you played in the demo with 
-playername = 'buddha#skinsmonkey'
+logging.basicConfig(filename="logfile.log",
+                    format='%(message)s',
+                    filemode='w')
+
+logger = logging.getLogger("MyApp")
+logger.setLevel(logging.DEBUG)
+
+settings = { "logFile" : "",
+    "steamPath" : "",
+    "tickfile" : "ticks.txt",
+    "demoFile" : "",
+    "vdmFile" : "",
+    "playerName" : '',
+    "obsFile" : "",
+    "cfgFolder" : ""
+    }
+
+if os.path.isfile('settings.json'):
+    settingsF = open('settings.json')
+    settings = json.load(settingsF)
+
+def logSettings() :
+    logger.info(json.dumps(settings, indent=4))
 
 # OBS websocket connection
 host = "localhost"
 port = 4455
 ws = obsws(host, port)
-ws.connect()
+
+def saveSettings() :
+    with open('settings.json', 'w') as f:
+        json.dump(settings, f)
+
+def updateCfg() :
+    with open('recording.cfg', 'r') as cfgF :
+        cfgContent = cfgF.read()
+        cfgContent = cfgContent.replace('<DEMO_FILE>',settings['demoFile'])
+        cfgContent = cfgContent.replace('<PLAYER_NAME>',settings['playerName'])
+        csgoCfgFile = os.path.join(settings['cfgFolder'], "recording.cfg")
+        with open(csgoCfgFile, 'w') as csCfgF :
+            csCfgF.write(cfgContent)
 
 # Class to handle window switching to CSGO
 # Blatantly copied from stackoverflow !
@@ -70,13 +94,13 @@ def runCmd(cmd) :
     proc = subprocess.Popen(cmd, shell = True, stdin = subprocess.PIPE, stdout = subprocess.PIPE)
     stdout, stderr = proc.communicate()
     if stderr :
-        print("Error while executing : " + cmd + " : " + stderr)
+        logger.info("Error while executing : " + cmd + " : " + stderr)
 
 # Wait till text is found in console.log file        
 def waitForText(text) :
     while True :
-        if os.path.isfile(logFile) : 
-            with open(logFile, 'r') as logF :
+        if os.path.isfile(settings['logFile']) : 
+            with open(settings['logFile'], 'r', errors='ignore') as logF :
                 logLines = logF.readlines()
                 for line in logLines : 
                     if re.search(text, line) :
@@ -94,15 +118,16 @@ def waitTillDemoReady() :
 
 # Start csgo
 def startCs() :
-    os.chdir(steamPath)
-    if os.path.isfile(logFile) : 
-        os.remove(logFile)
-    if os.path.isfile(vdmFile) : 
-        os.remove(vdmFile)
-    runCmd('.\\steam.exe -applaunch 730 -windowed')
+    startCmd = "start /d \"" + settings['steamPath'] + "\" steam.exe  -applaunch 730 -windowed"
+    logger.info("Run CsGO : " + startCmd)
+    if os.path.isfile(settings['logFile']) : 
+        os.remove(settings['logFile'])
+    if os.path.isfile(settings['vdmFile']) : 
+        os.remove(settings['vdmFile'])
+    runCmd(startCmd)
     checkIfCsReady()
     time.sleep(30)
-    print("CS GO ready now")
+    logger.info("CS GO ready now")
 
 # Switch current window to CSGO. Done to avoid user minimising CS
 def makeCsActiveWindow() :
@@ -114,12 +139,12 @@ def makeCsActiveWindow() :
 # running command : demo_listimportantticks
 def writeTickFile() :
     time.sleep(10)
-    if os.path.isfile(tickfile) :
-        os.remove(tickfile)
-    with open(tickfile, 'w') as tickF:
-        print("Writing tick file")
-        if os.path.isfile(logFile) : 
-            with open(logFile, 'r') as logF :
+    if os.path.isfile(settings['tickfile']) :
+        os.remove(settings['tickfile'])
+    with open(settings['tickfile'], 'w') as tickF:
+        logger.info("Writing tick file")
+        if os.path.isfile(settings['logFile']) : 
+            with open(settings['logFile'], 'r', errors='ignore') as logF :
                 logLines = logF.readlines()
                 for line in logLines : 
                     if "Tick:" in line :
@@ -135,7 +160,7 @@ def generateVdmContent() :
     startTick = 0
     endTick = 0
     live = 0
-    with open(tickfile, 'r') as tickF:
+    with open(settings['tickfile'], 'r') as tickF:
         for line in tickF :
             if live == 0 :
                 if "Event: cs_pre_restart" in line :
@@ -158,7 +183,7 @@ def generateVdmContent() :
                     vdmLines.append("\t}\n")
                     action = action + 1
                 continue
-            if 'killed ' + playername in line :
+            if 'killed ' + settings['playerName'] in line :
                 startTick = int(re.search("Tick: ([0-9]*)", line).group(1))
             if 'Event: round_start' in line :
                 if startTick > endTick:
@@ -172,41 +197,45 @@ def generateVdmContent() :
                     vdmLines.append("\t}\n")
                     action = action + 1
     vdmLines.append('}\n')
-    with open(vdmFile,'w') as vdmF :
+    with open(settings['vdmFile'],'w') as vdmF :
         vdmF.writelines(vdmLines)
 
 # Generate the vdm file
 def createVdmFile() :
-    print("Starting Demo")
+    logger.info("Starting Demo")
     makeCsActiveWindow()
     keypress.SimulateKey(keypress.VK_DOT)
     waitTillDemoReady()
     time.sleep(60)
     makeCsActiveWindow()
-    print("Dumping ticks")
+    logger.info("Dumping ticks")
     keypress.SimulateKey(keypress.VK_L)
     writeTickFile()
     generateVdmContent()
             
 # Again load the demo after vdm file has been created    
 def playFinalDemo() :
-    print("Playing Final demo")
+    logger.info("Playing Final demo")
     makeCsActiveWindow()
     time.sleep(3)
     keypress.SimulateKey(keypress.VK_T)
 
 # Increase usability so user doest have to keep OBS running
 def startObs() :
-    # To-Do 
-    # Add a GUI to setup 
+    # sample cmd start /d "C:\Program Files\obs-studio\bin\64bit" "" obs64.exe
+    obsCmd = "start /d \"" + os.path.dirname(settings['obsFile']) + "\" \"\" obs64.exe"
+    logger.info("OBS command : " + obsCmd)
+    runCmd(obsCmd)
+    time.sleep(10)
+    ws.connect()
     return
 
 # Check if the final demo has finished. Check if the searched message
 # appears twice in console.log. If yes we know demo finished playing 
 def waitTillDemoFinish() :
     while True :
-        if os.path.isfile(logFile) : 
-            with open(logFile, 'r') as logF :
+        if os.path.isfile(settings['logFile']) : 
+            with open(settings['logFile'], 'r', errors='ignore') as logF :
                 logLines = logF.readlines()
                 statemsg = 0
                 for line in logLines : 
@@ -214,7 +243,7 @@ def waitTillDemoFinish() :
                         if statemsg == 0 :
                             statemsg = 1
                         elif statemsg == 1 :
-                            print("Demo Finished")
+                            logger.info("Demo Finished")
                             return 
     
 # Final demo has loaded. Start recording
@@ -223,13 +252,16 @@ def startRecording() :
         # Automated OBS scene creation so user doesnt have to 
         # worry about adding CSGO as a source
         ws.call(requests.CreateScene(sceneName = "CS Demo"))
-        ws.call(requests.CreateInput(sceneName="CS Demo",
+        sources = ws.call(requests.CreateInput(sceneName="CS Demo",
                                      inputName="CS Window",
                                      inputKind = "window_capture",
                                      inputSettings = {
                                          'window': 'Global Offensive:Valve001:csgo.exe'
                                          }))
         ws.call(requests.SetCurrentProgramScene(sceneName = "CS Demo"))
+        scrId = sources.datain["sceneItemId"]
+        transformObj = {'boundsHeight': 720.0, 'boundsType': 'OBS_BOUNDS_STRETCH', 'boundsWidth': 1280.0}
+        ws.call(requests.SetSceneItemTransform(sceneName = "CS Demo", sceneItemId = scrId, sceneItemTransform = transformObj))
         ws.call(requests.StartRecord())
         makeCsActiveWindow()
         # Awkward hack as CSGO does seem to spectate player in warmup
@@ -247,8 +279,9 @@ def stopRecording() :
     ws.call(requests.RemoveScene(sceneName = "CS Demo"))
     runCmd("taskkill /f /im csgo.exe")
     ws.disconnect()
+    runCmd("taskkill /f /im obs64.exe")
     videoFile = recResponse.datain['outputPath']
-    dirPath = os.path.dirname(vdmFile)
+    dirPath = os.path.dirname(settings['vdmFile'])
     dstVideoFile = os.path.join(dirPath,'demo.mkv')
     shutil.copy(videoFile,dstVideoFile)
     os.remove(videoFile)
@@ -257,12 +290,12 @@ def stopRecording() :
 # TODO drive through buttons on GUI
 # Thinking of adding PyQt interface for seeting up global variables and buttons
 # for recording demo videos and uploading to youtube
-startObs()
-startCs()   
-createVdmFile() 
-time.sleep(50)
-playFinalDemo()
-time.sleep(50)
-startRecording()
-waitTillDemoFinish()
-stopRecording()
+#startObs()
+#startCs()   
+#createVdmFile() 
+#time.sleep(50)
+#playFinalDemo()
+#time.sleep(50)
+#startRecording()
+#waitTillDemoFinish()
+#stopRecording()
