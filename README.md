@@ -21,6 +21,7 @@
      <br/> <br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/1096f7cb-da95-4b5a-93b6-ffd196137845)<br/> <br/>
   3. Click on Start Gnerating Video to start the recording process
      <br/> <br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/2e57033c-4488-4fa5-8634-814718f65d8d)<br/> <br/>
+
   4. Output video name _demo.mkv_ will be created in the demo_ folder 
 
 **Future Plans**
