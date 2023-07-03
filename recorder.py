@@ -119,7 +119,7 @@ def waitTillDemoReady() :
 
 # Start csgo
 def startCs() :
-    startCmd = "start /d \"" + settings['steamPath'] + "\" steam.exe  -applaunch 730 -windowed"
+    startCmd = "start /d \"" + settings['steamPath'] + "\" steam.exe  -applaunch 730 -windowed -condebug -insecure +exec recording"
     logger.info("Run CsGO : " + startCmd)
     if os.path.isfile(settings['logFile']) : 
         os.remove(settings['logFile'])
