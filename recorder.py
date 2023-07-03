@@ -9,6 +9,7 @@ import os
 import subprocess
 import time
 import keypress
+import pywintypes
 import win32gui
 import re
 import win32com.client
