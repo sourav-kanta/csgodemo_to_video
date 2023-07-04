@@ -11,6 +11,7 @@
   2. Install OBS and enable Websocket (Tools -> Websocket Server Settings). Tutorial : https://fms-manual.readthedocs.io/en/latest/audience-display/obs-integration/obs-websockets.html
   3. Make sure to <b>Untick Enable Authentication</b>
 
+
 **Steps to run**
   1. Start application by :
      1. cd to your _repository directory_
