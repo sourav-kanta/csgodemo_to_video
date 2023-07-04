@@ -110,7 +110,7 @@ def waitForText(text) :
 # Check if we can use binds 
 # Binds in csgo only works if we are in a map and not on main menu
 def checkIfCsReady() : 
-    waitForText('Map: awp_mirage')
+    waitForText('Map: de_mirage')
 
 # Wait till demo loads first time 
 # Using this to run demo_listimportantticks
@@ -284,7 +284,10 @@ def stopRecording() :
     videoFile = recResponse.datain['outputPath']
     dirPath = os.path.dirname(settings['vdmFile'])
     dstVideoFile = os.path.join(dirPath,'demo.mkv')
+    if os.path.isfile(dstVideoFile) :
+        os.remove(dstVideoFile)
     shutil.copy(videoFile,dstVideoFile)
+    logger.info("Generated video at : " + dstVideoFile)
     os.remove(videoFile)
 
 # Driver 
