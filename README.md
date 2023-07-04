@@ -8,7 +8,7 @@
   
 **Steps to run**
   1. Start application by :
-     1. Download and the application from the Release tab
+     1. Download and run the application from the Release tab
      <br/><br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/d219878a-bbeb-42a0-8518-4a147e2af624) <br/> <br/>
   2. Click on Change Setup button and select the neccessary files and folders. Input the name you played in the demo with and click OK.
      <br/> <br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/1096f7cb-da95-4b5a-93b6-ffd196137845)<br/> <br/>
