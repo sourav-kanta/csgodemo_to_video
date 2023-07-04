@@ -10,7 +10,7 @@
   1. Install python on your system and install the required package : <i>pip install -r requirements.txt</i> for obs websocket python wrapper
   2. Install OBS and enable Websocket (Tools -> Websocket Server Settings). Tutorial : https://fms-manual.readthedocs.io/en/latest/audience-display/obs-integration/obs-websockets.html
   3. Make sure to <b>Untick Enable Authentication</b>
-  4. Download awp_mirage map from Steam workshop (Check by manually opening CSGO and typing map awp_mirage in console)
+
 
 **Steps to run**
   1. Start application by :
