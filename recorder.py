@@ -18,6 +18,7 @@ import shutil
 import json
 import logging
 import pythoncom
+import sys
 
 logging.basicConfig(filename="logfile.log",
                     format='%(message)s',
@@ -52,8 +53,18 @@ def saveSettings() :
     with open('settings.json', 'w') as f:
         json.dump(settings, f)
 
+# Relative path for PyInstaller
+def resourcePath(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
 def updateCfg() :
-    with open('recording.cfg', 'r') as cfgF :
+    with open(resourcePath('recording.cfg'), 'r') as cfgF :
         cfgContent = cfgF.read()
         cfgContent = cfgContent.replace('<DEMO_FILE>',settings['demoFile'])
         cfgContent = cfgContent.replace('<PLAYER_NAME>',settings['playerName'])
