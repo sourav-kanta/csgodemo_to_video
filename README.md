@@ -7,13 +7,16 @@
   <br/> <br/>[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Et5iVpf-zuY/0.jpg)](https://www.youtube.com/watch?v=Et5iVpf-zuY) <br/> <br/>
   
 **Steps to run**
-  1. Download and run the application from the Release tab
+
+  1. Install OBS on your system https://obsproject.com/download <br/>
+  2. Download and run the application from the Release tab
      <br/><br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/d219878a-bbeb-42a0-8518-4a147e2af624) <br/> <br/>
-  2. Click on Change Setup button and select the neccessary files and folders. Input the name you played in the demo with and click OK.
+  3. Click on Change Setup button and select the neccessary files and folders. Input the name you played in the demo with and click OK.
      <br/> <br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/1096f7cb-da95-4b5a-93b6-ffd196137845)<br/> <br/>
-  3. Click on Start Gnerating Video to start the recording process
+  4. Click on Start Gnerating Video to start the recording process
      <br/> <br/>![image](https://github.com/sourav-kanta/csgodemo_to_video/assets/15877038/2e57033c-4488-4fa5-8634-814718f65d8d)<br/> <br/>
-  4. Output video name _demo.mkv_ will be created in the demo_ folder 
+  5. Output video name _demo.mkv_ will be created in the demo_ folder 
+
 
 **Executable Build Steps**
   1. Create a virtual environment and activate it
