@@ -22,5 +22,5 @@
   3. Run the following command inside virtual environment : _pyinstaller --onefile --name "Demo To Video Convertor" --icon .\loop-arrow.ico --add-data "recording.cfg;." .\MainMenu.py --windowed_
   
 **Future Plans**
-  1.Create a youtube upload feature to upload these videos on youtube
+  1. Create a youtube upload feature to upload these videos on youtube
   2. Create a website where these videos can be viewed and other users can then demo review through comments
